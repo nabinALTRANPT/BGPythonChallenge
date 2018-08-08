@@ -1,0 +1,9 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:bit="http://example.org/types" targetNamespace="http://example.org/types" >
+  <xsd:complexType name="XType">
+       <xsd:sequence>
+         <xsd:element name="stringMember" type="xsd:string" />         
+                                 <xsd:element name="intMember" type="xsd:int" />         
+       </xsd:sequence>
+  </xsd:complexType>  
+  <xsd:element name="a" type="bit:XType"/>
+</xsd:schema>
