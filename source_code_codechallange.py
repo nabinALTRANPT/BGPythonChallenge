@@ -11,7 +11,7 @@ from lxml.etree import XMLSyntaxError
 
 from main import data
 
-# start xml creation
+# start xml creation - three files will be created
 def validate_xml_files():
 
 
@@ -22,6 +22,8 @@ def validate_xml_files():
 
 
          root = minidom.Document()
+
+
 
          xml = root.createElement('a')
          xml = root.createElementNS ('http://example.org/types', 'bit:a')
