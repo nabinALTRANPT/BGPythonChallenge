@@ -71,7 +71,7 @@ def validate_xml_files():
            xml_file = open (item['file'], 'r')
            xml_string = xml_file.read ()
            xml_file.close ()
-           xml_validator (xml_string, 'c:\d.xsd')
+           xml_validator (xml_string, 'd.xsd')
 
 
 # end xml creation and validation
